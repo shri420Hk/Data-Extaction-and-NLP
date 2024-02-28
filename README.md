@@ -4,7 +4,7 @@
 
 This Python program is designed to extract textual data from articles on a website, as specified in the assignment. The objective is to perform text analysis and compute various variables outlined in the "Text Analysis.docx" document.
 
-Prerequisites
+#Prerequisites
 
 Python 3.x
 Required Python packages: BeautifulSoup, requests, openpyxl, nltk
