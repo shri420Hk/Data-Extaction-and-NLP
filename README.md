@@ -11,19 +11,29 @@ Required Python packages: BeautifulSoup, requests, openpyxl, nltk
 Install the required packages using the following command:
 
 bash
+
 Copy code
-pip install beautifulsoup4 requests openpyxl nltk
-Usage
+
+pip install beautifulsoup4 
+requests openpyxl nltk
+
+#Usage
 Clone the repository to your local machine.
 Place the Input.xlsx file with the list of articles in the same directory as the script.
 Run the Python script:
+
 bash
+
 Copy code
-python data_extraction_and_analysis.py
-Input
+
+python new.py
+#Input
+
 The program takes input from the provided Input.xlsx file, which contains a list of articles.
 
-Output
+
+#Output
+
 For each article, the program extracts the article title and text, saving it in a text file with the format URL_ID.txt.
 
 Text Analysis
